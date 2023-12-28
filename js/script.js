@@ -60,7 +60,7 @@ document.querySelector('.btn--roll').addEventListener("click", e => {
         // 2.display the rsolets
         var diceDOm = document.querySelector('.dice');
         diceDOm.style.display = 'block';
-        diceDOm.src = 'dice-' + dice + ".png"
+        diceDOm.src = './png/dice-' + dice + ".png"
 
 
         // 3.update the round score 
@@ -88,7 +88,7 @@ document.querySelector('.btn--roll-extra').addEventListener("click", e => {
         // 2.display the rsolets
         var dice2DOm = document.querySelector('.dice-extra');
         dice2DOm.style.display = 'block';
-        dice2DOm.src = 'dice-' + dice2 + ".png"
+        dice2DOm.src = './png/dice-' + dice2 + ".png"
 
 
         // 3.update the round score 
